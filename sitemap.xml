@@ -12,12 +12,6 @@
     &lt;/url&gt;
 
     &lt;url&gt;
-        &lt;loc&gt;https://nikhilakki.in/about/&lt;/loc&gt;
-        &lt;lastmod&gt;Sun Aug 07 2022 12:53:35 GMT+0530 (India Standard Time)&lt;/lastmod&gt;
-        &lt;changefreq&gt;&lt;/changefreq&gt;
-    &lt;/url&gt;
-
-    &lt;url&gt;
         &lt;loc&gt;https://nikhilakki.in/&lt;/loc&gt;
         &lt;lastmod&gt;Sun Aug 07 2022 12:53:35 GMT+0530 (India Standard Time)&lt;/lastmod&gt;
         &lt;changefreq&gt;&lt;/changefreq&gt;
@@ -32,6 +26,12 @@
     &lt;url&gt;
         &lt;loc&gt;https://nikhilakki.in/tags/&lt;/loc&gt;
         &lt;lastmod&gt;Sun Aug 07 2022 12:53:35 GMT+0530 (India Standard Time)&lt;/lastmod&gt;
+        &lt;changefreq&gt;&lt;/changefreq&gt;
+    &lt;/url&gt;
+
+    &lt;url&gt;
+        &lt;loc&gt;https://nikhilakki.in/about/&lt;/loc&gt;
+        &lt;lastmod&gt;Sun Aug 07 2022 14:26:53 GMT+0530 (India Standard Time)&lt;/lastmod&gt;
         &lt;changefreq&gt;&lt;/changefreq&gt;
     &lt;/url&gt;
 </code></pre>
