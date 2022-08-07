@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  	<meta name='viewport' content='width=device-width'>
+
+    <title>NikhilAkki.in</title>
+    <meta name='description' content=Back-end & Cloud Developer>
+    <meta name="theme-color" content="#ffffff"/>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json" />
+
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link href="/assets/styles/tailwind.css" rel="stylesheet" />
+    <link href="/assets/styles/index.css" rel="stylesheet" />
+    <script>
+      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDarkMode()) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+  </head>
+
+  <body class="dark:text-white dark:bg-black">
+    
+<div class="min-h-screen flex flex-col">
+
+<main class="flex-1 w-10/12 max-w-screen-sm md:max-w-screen-md mx-auto">
+
+  
+<nav>
+  <ul class="flex py-2 border-b-2 mb-6">
+    <li class="mr-6"><a href="/">Home</a></li>
+    <li class="mr-6"><a href="/tags">Tags</a></li>
+    <li class="mr-6"><a href="/about">About</a></li>
+    <li class="mr-6"><span class="cursor-pointer" id="toggleDarkMode">Dark mode</spam></li>
+  </ul>
+</nav>
+
+<p class="text-5xl md:text-6xl font-black pt-10 md:pt-30 pb-4 leading-tight">
+    Namaste 🙏
+</p>
+
+<div>
+    <em>2022-08-07</em> &middot; 
+    <span>1 min read</span>
+</div>
+
+<div class="mt-3 pb-10">
+  
+    
+  
+    
+      <a href="/tags/first-post">
+        <span class="post-tag">first-post</span>
+      </a>
+    
+  
+  </div>
+
+<div class="prose dark:prose-invert hover:prose-a:text-blue-500">
+  <p>Welcome to my personal tech blog, I intends to cover various topics from Full stack development</p>
+<p>Here are some topics, I would love to cover -</p>
+<ol>
+<li><strong>Cloud</strong> - GCP, AWS, Azure, Linode, Digital Ocean etc.</li>
+<li><strong>Software Engineering</strong> -
+<ul>
+<li>Backend using Python, TypeScript (NodeJS &amp; Deno) and Golang</li>
+<li>Frontend - React, Flutter etc.</li>
+</ul>
+</li>
+<li><strong>IoT</strong> -
+<ul>
+<li>Tinkering with Sensors</li>
+<li>Arduino and Raspberry Pi</li>
+</ul>
+</li>
+<li><strong>DevOps &amp; Infra</strong>-
+<ul>
+<li>Terraform, Pulumi, GitHub Actions etc.</li>
+<li>Kubernetes, Docker, Podman etc.</li>
+<li>K3s</li>
+<li>Linux, Bash scripting</li>
+</ul>
+</li>
+</ol>
+<p>My goal for this blog is to serve as documentation. If you want to dicuss or colaborate, feel free to reach on any one of my social media handles.</p>
+
+</div>
+
+<div class="mt-16 py-8 border-t-2 flex justify-between items-center">
+  <div class="flex items-center flex-1">
+    <div
+      class="inline-block h-8 w-14 bg-orange-700 square-full mr-2 flex justify-center items-center"
+    >
+      Author
+    </div>
+    <span class="text-lg font-medium">Nikhil Akki</span>
+  </div>
+  <p class="text-sm flex-1">
+    Loves technology, passionate about the Web, Cloud, IoT, AI/ML etc.
+  </p>
+</div>
+
+
+</main>
+
+<footer class="mt-8 bg-gray-200 dark:bg-gray-900 py-8 flex-shrink-0">
+  <div class="max-w-screen-sm md:max-w-screen-md mx-auto px-8">
+    <p class="text-sm py-2 text-right">
+      
+        <a href=https://github.com/nikhilakki>Github</a> 
+      
+
+      
+        &middot; <a href=https://www.linkedin.com/in/nikhilakki/>LinkedIn</a>
+      
+
+      
+        &middot; <a href=https://twitter.com/akkiyogi>Twitter</a>
+      
+
+    </p>
+  </div>
+</footer>
+</div>
+
+    
+  <script>
+    document.getElementById("toggleDarkMode").addEventListener("click", function() {
+      if (isDarkMode()) {
+        localStorage.theme = 'light'
+        document.documentElement.classList.remove('dark')
+      } else {
+        localStorage.theme = 'dark'
+        document.documentElement.classList.add('dark')
+      }
+    });
+  </script>
+  </body>
+</html>
